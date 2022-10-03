@@ -24,6 +24,4 @@ main () {
     total = n1 + n2;
 
     printf("The sum is %d\n", total);
-  
-    return 0;
-}
+  }
