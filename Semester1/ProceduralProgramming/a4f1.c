@@ -23,10 +23,10 @@ int main () {
     rate = GetInteger();
 
     profit = purchaseAmount * ((double) rate / 100);
-    printf("The seller's profit is: %g \n", profit);
+    printf("The seller's profit is: %g\n", profit);
 
     saleAmount = purchaseAmount + profit;
-    printf("The received amount is: %g", saleAmount);
+    printf("The received amount is: %g\n", saleAmount);
 
     return 0;
 }
