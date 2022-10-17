@@ -1,7 +1,7 @@
 /*
  * File name: a7f2.c
  * ------------------
- * Author: Christos Parapangidis, with direction from Alexandros Chatzigeorgiou
+ * Author: Christos Parapangidis
  * Date: 17 Oct 2022
  * This program calculates the weekly rate of an employee
  */
