@@ -37,7 +37,7 @@ int main() {
 
         // 50% bonus if the hours are more than 40
         if (weeklyWorkingHours > 40) {
-            weeklyRate += (weeklyRate * 50/100);
+            weeklyRate += ((weeklyWorkingHours - 40) * (hourlyRate * 0.5));
         }
     }
     printf("The employee's weekly rate is: %g\n", weeklyRate);
