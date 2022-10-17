@@ -19,13 +19,14 @@ int main() {
     printf("Enter the employee's code number: ");
     employeeCode = GetLong();
 
-    // Value check for different actions
+    // Pay by year
     if (employeeCode >= 1000) {
         printf("Enter the employee's annual rate: ");
         annualRate = GetReal();
 
         weeklyRate = annualRate / 52;
     }
+    // Pay by week
     else {
         printf("Enter the employee's working hours per week: ");
         weeklyWorkingHours = GetInteger();
