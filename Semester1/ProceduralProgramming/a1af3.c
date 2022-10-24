@@ -27,7 +27,7 @@ int main() {
     }
 
     printf("The years it took for the cars to surpass %d are: %ld\n", LIMIT, yearsForCompletion);
-    printf("The amount of cars in year %ld are: %ld\n", yearsForCompletion, carsAmount);
+    printf("The final amount of cars is: %ld\n", carsAmount);
 
     return 0;
 }
