@@ -90,7 +90,7 @@ int product_points(int code, double price) {
     //One point is always awarded regardless of price
     points = 1;
 
-    if (code > 999 && code < 1501) {
+    if (code >= 1000 && code <= 1500) {
         points += ceil(price/5);
     }
 
